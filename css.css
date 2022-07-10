@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+html, body, div, p, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 690;
+}
+html {
+    scroll-behavior: smooth;
+}
+.nav {
+    background: #171719;
+    height: 70px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    font-size: 24px;
+}
+
+.nav li {
+    display: inline-flex;
+    justify-content: center;
+    list-style: none;
+    height: 70px;
+    line-height: 70px;
+    padding-left: 200px;
+    padding-right: 150.3px;
+
+}
+
+.nav li:hover {
+    background: #FF0E3A;
+    transition: background 1.5s;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+}
+body{
+    background-color: #252525;
+}
+.prvaslika{
+    float: left;
+
+}
+.slika1{
+    width: 50%;
+    height: 50%;
+    padding-left: 200px;
+    padding-top: 200px;
+    overflow: hidden;
+    filter: brightness(80%);
+
+
+}
+.prvtekst{
+
+    padding-top: 300px;
+    padding-right: 170px;
+    font-size: 70px;
+    padding-left: 750px;
+}
+.vtorastrtekst{
+    font-size: 40px;
+    padding-top: 100px;
+    padding-left: 750px;
+    padding-right: 170px;
+    float: right;
+}
+p{
+    color: white;
+}
+.ikonki{
+    height: 100px;
+    width: 100px;
+    float: left;
+    padding-top: 100px;
+    padding-left: 200px;
+    overflow: hidden;
+}
+.ptreta{
+    padding-top: 100px;
+    padding-left: 150px;
+    font-size: 19px;
+    display: inline-block;
+    justify-content: space-between;
+}
+
